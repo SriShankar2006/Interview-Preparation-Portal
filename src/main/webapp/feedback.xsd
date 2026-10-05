@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="feedbacks">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="interview_feedbacks" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="feedback" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="username" type="xs:string"/>
+                    <xs:element name="topic" type="xs:string"/>
+                    <xs:element name="comment" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="portal_feedbacks" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="interview" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="candidate" type="xs:string"/>
+                    <xs:element name="company" type="xs:string"/>
+                    <xs:element name="role" type="xs:string"/>
+                    <xs:element name="difficulty" type="xs:string"/>
+                    <xs:element name="rating" type="xs:integer"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="feedback.xsl"?>
+<!DOCTYPE feedbacks SYSTEM "feedback.dtd">
+<feedbacks>
+  <interview_feedbacks>
+    <feedback>
+      <username>Sri Shankar</username>
+      <topic>Python</topic>
+      <comment>Very easy to learn</comment>
+    </feedback>
+    <feedback>
+      <username>Sangkeerth</username>
+      <topic>SQL Database</topic>
+      <comment>Give more tough Questions</comment>
+    </feedback>
+  </interview_feedbacks>
+
+  <portal_feedbacks>
+    <interview>
+      <candidate>Sanjay</candidate>
+      <company>TCS</company>
+      <role>Software Engineer</role>
+      <difficulty>Medium</difficulty>
+      <rating>8</rating>
+    </interview>
+    <interview>
+      <candidate>Ram</candidate>
+      <company>Infosys</company>
+      <role>System Engineer</role>
+      <difficulty>Easy</difficulty>
+      <rating>5</rating>
+    </interview>
+    <interview>
+      <candidate>Jayan</candidate>
+      <company>Wipro</company>
+      <role>Web Developer</role>
+      <difficulty>Hard</difficulty>
+      <rating>9</rating>
+    </interview>
+    <interview>
+      <candidate>Hari</candidate>
+      <company>Google</company>
+      <role>Developer</role>
+      <difficulty>Hard</difficulty>
+      <rating>3</rating>
+    </interview>
+  </portal_feedbacks>
+</feedbacks>

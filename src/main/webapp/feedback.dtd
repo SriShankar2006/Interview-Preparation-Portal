@@ -1,0 +1,13 @@
+<!ELEMENT feedbacks (interview_feedbacks, portal_feedbacks)>
+<!ELEMENT interview_feedbacks (feedback*)>
+<!ELEMENT feedback (username, topic, comment)>
+<!ELEMENT username (#PCDATA)>
+<!ELEMENT topic (#PCDATA)>
+<!ELEMENT comment (#PCDATA)>
+<!ELEMENT portal_feedbacks (interview*)>
+<!ELEMENT interview (candidate, company, role, difficulty, rating)>
+<!ELEMENT candidate (#PCDATA)>
+<!ELEMENT company (#PCDATA)>
+<!ELEMENT role (#PCDATA)>
+<!ELEMENT difficulty (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
